@@ -41,14 +41,14 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="absolute left-0 ml-30">
+        <div className="relative left-0 ml-30">
           <h2 className="text-4xl font-bold">Naši plastični granulati</h2>
           <h2 className="text-4xl font-bold">Vaši trajnostno<br />naravni izdelki</h2>
           <div className="w-1/2 h-1 bg-orange-500 my-4"></div>
           <p className="text-lg">Ukvarjamo se z distribucijo plastičnih granulatov sit amet consectetur. Aliquet mauris amet morbi tincideunt ori c vitae commodo.</p>
           <div className="flex mt-4">
-            <button className="bg-lightBlue-200 text-white rounded-full px-4 py-2 mr-4">Prodajni program</button>
-            <button className="border-2 border-lightBlue-200 text-lightBlue-200 rounded-full px-4 py-2">Povpraševanje</button>
+            <button className="bg-blue-800 text-white rounded-full px-4 py-2 mr-4">Prodajni program</button>
+            <button className="border-2 border-blue-800 text-blue-800 rounded-full px-4 py-2">Povpraševanje</button>
           </div>
           <div className="mt-8">
             <i className="fas fa-arrow-down"></i>

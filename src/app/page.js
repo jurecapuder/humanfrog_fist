@@ -1,11 +1,11 @@
 import React from "react";
-
 import Image from "next/image";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 export default function Home() {
   return (
-    <div className="App p-30">
-      <header className="flex justify-between items-center">
+    <div className="">
+      <header className="flex items-center justify-between">
         <Image src="/fist.png" alt="Company Logo" width={167} height={79} /> {/* Replace with your actual logo */}
         
         <nav>
@@ -13,7 +13,7 @@ export default function Home() {
             <li><a href="#home"><i className="fas fa-home"></i></a></li> {/* House icon */}
             <li><a href="#prodajni-program">Prodajni program</a></li>
             <li><a href="#zastopamo">Zastopamo</a></li>
-            <li><a href="#svet-360">Svet 360</a></li>
+            <li><a href="#svet-360">Svet 360&#176;</a></li>
             <li><a href="#baza-znanja">Baza znanja</a></li>
             <li><a href="#o-nas">O nas</a></li>
           </ul>

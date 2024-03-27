@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="">
       <header className="flex items-center justify-between">
-        <Image src="/fist.png" alt="Company Logo" width={167} height={79} /> {/* Replace with your actual logo */}
+        <Image src="/fist.png" alt="Company Logo" width={167} height={79} />
         
         <nav>
           <ul className="flex space-x-4">
@@ -22,7 +22,7 @@ export default function Home() {
         <button className="bg-purple-500 text-white rounded-full px-4 py-2">Povpraševanje</button>
         
         <div className="relative inline-flex">
-          <Image className="inline-block" src="/slovenian-flag.png" alt="Slovenia Flag" width={32} height={18} /> {/* Replace with your actual flag image */}
+          <Image className="inline-block" src="/slovenian-flag.png" alt="Slovenia Flag" width={32} height={18} />
           <select className="ml-2">
             {/* Add more language options here */}
           </select>

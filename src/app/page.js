@@ -4,12 +4,12 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 
 export default function Home() {
   return (
-    <div className="App bg-white text-logo-blue" style={{ padding: '0 10vw' }}>
-      <header className="flex items-center justify-between">
+    <div className="bg-white text-logo-blue">
+      <header className="flex items-center justify-between" style={{ padding: '0 10vw' }}>
         <Image src="/fist.png" alt="Company Logo" width={167} height={79} />
         
         <nav>
-          <ul className="flex space-x-4">
+          <ul className="flex space-x-10">
             <li><a href="#home"><i className="fas fa-home"></i></a></li> {/* House icon */}
             <li><a href="#prodajni-program">Prodajni program</a></li>
             <li><a href="#zastopamo">Zastopamo</a></li>
@@ -29,19 +29,15 @@ export default function Home() {
         </div>
       </header>
       
-      <section className="relative pt-28 bg-cover bg-center" style={{ backgroundImage: `url(/background-image.jpg)` }}>
-        <div className="relative">
-          <div className="h-20 bg-blue-800 opacity-80"></div>
-          
-          <div className="absolute right-0 top-0 mr-28 mt-10">
-            <div className="flex items-center border-2 border-gray-300 p-2 rounded-md">
-              <input className="bg-transparent outline-none flex-grow" type="text" placeholder="Iskanje po prodajnem programu" />
-              <i className="fas fa-search"></i>
-            </div>
+      <section className="relative bg-cover bg-center" style={{ backgroundImage: `url(/background-image.jpg)` }}>
+        <div className="w-full h-20 bg-blue-800 opacity-90 flex items-center justify-end mr-28">
+          <div className="flex items-center border-2 border-gray-300 p-2 rounded-md">
+            <input className="bg-transparent outline-none flex-grow w-80" type="text" placeholder="Iskanje po prodajnem programu" />
+            <i className="fas fa-search"></i>
           </div>
         </div>
 
-        <div className="relative left-0 ml-30">
+        <div className="relative ml-1/10 bg-blue-800 bg-opacity-90 p-4 rounded text-white">
           <h2 className="text-4xl font-bold">Naši plastični granulati</h2>
           <h2 className="text-4xl font-bold">Vaši trajnostno<br />naravni izdelki</h2>
           <div className="w-1/2 h-1 bg-orange-500 my-4"></div>

@@ -29,7 +29,7 @@ export default function Home() {
         </div>
       </header>
       
-      <section className="relative pt-28">
+      <section className="relative pt-28 bg-cover bg-center" style={{ backgroundImage: `url(/background-image.jpg)` }}>
         <div className="relative">
           <div className="h-20 bg-blue-800 opacity-50"></div>
           

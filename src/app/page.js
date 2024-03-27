@@ -4,7 +4,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="App px-28">
       <header className="flex items-center justify-between">
         <Image src="/fist.png" alt="Company Logo" width={167} height={79} />
         
@@ -30,7 +30,16 @@ export default function Home() {
       </header>
       
       <section>
-        {/* GL banner with autoplay video */}
+        <div className="relative">
+          <div className="h-20 bg-blue-800 opacity-50"></div>
+          
+          <div className="absolute right-0 top-0 mr-28 mt-10">
+            <div className="flex items-center border-2 border-gray-300 p-2 rounded-md">
+              <input className="bg-transparent outline-none flex-grow" type="text" placeholder="Iskanje po prodajnem programu" />
+              <i className="fas fa-search"></i>
+            </div>
+          </div>
+        </div>
       </section>
       
       <section>

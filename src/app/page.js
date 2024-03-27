@@ -4,7 +4,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 
 export default function Home() {
   return (
-    <div className="App px-28 bg-white text-logo-blue">
+    <div className="App bg-white text-logo-blue" style={{ padding: '0 10vw' }}>
       <header className="flex items-center justify-between">
         <Image src="/fist.png" alt="Company Logo" width={167} height={79} />
         
@@ -31,7 +31,7 @@ export default function Home() {
       
       <section className="relative pt-28 bg-cover bg-center" style={{ backgroundImage: `url(/background-image.jpg)` }}>
         <div className="relative">
-          <div className="h-20 bg-blue-800 opacity-50"></div>
+          <div className="h-20 bg-blue-800 opacity-80"></div>
           
           <div className="absolute right-0 top-0 mr-28 mt-10">
             <div className="flex items-center border-2 border-gray-300 p-2 rounded-md">

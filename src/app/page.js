@@ -4,8 +4,8 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 
 export default function Home() {
   return (
-    <div className="App px-28 bg-white">
-      <header className="flex items-center justify-between text-blue-700">
+    <div className="App px-28 bg-white text-logo-blue">
+      <header className="flex items-center justify-between">
         <Image src="/fist.png" alt="Company Logo" width={167} height={79} />
         
         <nav>

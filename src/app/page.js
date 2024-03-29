@@ -4,6 +4,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import Header from "./sections/header";
 import Banner from "./sections/banner";
 import SalesProgram from "./sections/salesProgram";
+import KnowledgeBase from "./sections/knowledgeBase";
 import SatisfiedCustomers from "./sections/satisfiedCustomers";
 import Footer from "./sections/footer";
 
@@ -32,9 +33,7 @@ export default function Home() {
         {/* News block (3 column news) */}
       </section>
 
-      <section>
-        {/* Knowledge base (accordion) */}
-      </section>
+      <KnowledgeBase />
 
       <SatisfiedCustomers />
 

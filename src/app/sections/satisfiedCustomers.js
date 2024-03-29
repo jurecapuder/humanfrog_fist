@@ -3,8 +3,7 @@ import React from 'react';
 function SatisfiedCustomers() {
   return (
     <div>
-      <h2>Satisfied Customers</h2>
-      <p>Our customers love our products!</p>
+        <h2>NAŠE ZADOVOLJNE STRANKE</h2>
     </div>
   );
 }

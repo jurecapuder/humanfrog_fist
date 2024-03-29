@@ -7,6 +7,7 @@ import SalesProgram from "./sections/salesProgram";
 import KnowledgeBase from "./sections/knowledgeBase";
 import SatisfiedCustomers from "./sections/satisfiedCustomers";
 import Footer from "./sections/footer";
+import NewsBlock from "./sections/newsBlock";
 
 export default function Home() {
   return (
@@ -29,9 +30,7 @@ export default function Home() {
         {/* Slider with logos */}
       </section>
 
-      <section>
-        {/* News block (3 column news) */}
-      </section>
+      <NewsBlock />
 
       <KnowledgeBase />
 

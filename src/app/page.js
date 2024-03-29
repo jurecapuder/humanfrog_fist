@@ -2,6 +2,8 @@ import React from "react";
 import Image from "next/image";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
+import Footer from "./sections/footer";
+
 export default function Home() {
   return (
     <div className="bg-white text-logo-blue">
@@ -134,9 +136,7 @@ export default function Home() {
         {/* Satisfied customers (slider with logos) */}
       </section>
       
-      <footer>
-        {/* Footer */}
-      </footer>
+      <Footer />
     </div>
   );
 }

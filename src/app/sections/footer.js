@@ -17,7 +17,7 @@ const Footer = () => {
 
         <p>
             T +386 1 562 11 53 <br />
-            E info@fist.si
+            E <a href="mailto:info@fist.si" className="text-[#BFC4F3]">info@fist.si</a>
         </p>
       </div>
       <div>

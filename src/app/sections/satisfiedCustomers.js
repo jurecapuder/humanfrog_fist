@@ -4,6 +4,8 @@ function SatisfiedCustomers() {
   return (
     <div>
         <h2>NAŠE ZADOVOLJNE STRANKE</h2>
+
+        
     </div>
   );
 }

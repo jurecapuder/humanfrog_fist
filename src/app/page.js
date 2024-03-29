@@ -4,11 +4,13 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import Header from "./sections/header";
 import Banner from "./sections/banner";
 import SalesProgram from "./sections/salesProgram";
+import Process from "./sections/process";
+import About from "./sections/about";
+import Represent from "./sections/represent";
+import NewsBlock from "./sections/newsBlock";
 import KnowledgeBase from "./sections/knowledgeBase";
 import SatisfiedCustomers from "./sections/satisfiedCustomers";
 import Footer from "./sections/footer";
-import NewsBlock from "./sections/newsBlock";
-import Represent from "./sections/represent";
 
 export default function Home() {
   return (
@@ -19,13 +21,9 @@ export default function Home() {
 
       <SalesProgram />
 
-      <section>
-        {/* Our process */}
-      </section>
+      <Process />
 
-      <section>
-        {/* Banner (image on the left, text on the right) */}
-      </section>
+      <About />
 
       <Represent />
 

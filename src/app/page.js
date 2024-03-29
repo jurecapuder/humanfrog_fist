@@ -11,33 +11,33 @@ export default function Home() {
   return (
     <div className="bg-white text-logo-blue">
       <Header />
-      
+
       <Banner />
-      
+
       <SalesProgram />
-      
+
       <section>
         {/* Our process */}
       </section>
-      
+
       <section>
         {/* Banner (image on the left, text on the right) */}
       </section>
-      
+
       <section>
         {/* Slider with logos */}
       </section>
-      
+
       <section>
         {/* News block (3 column news) */}
       </section>
-      
+
       <section>
         {/* Knowledge base (accordion) */}
       </section>
-      
+
       <SatisfiedCustomers />
-      
+
       <Footer />
     </div>
   );

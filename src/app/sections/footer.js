@@ -21,8 +21,26 @@ const Footer = () => {
       </div>
       <div>
         <h3>Spremljajte Nas</h3>
-        <a href="https://www.linkedin.com/company/fist-d-o-o/"><img src="/linkedin.png" alt="LinkedIn" /> LinkedIn</a>
-        <a href="https://www.youtube.com/@Fist_doo"><img src="/youtube.png" alt="YouTube" /> YouTube</a>
+        <a href="https://www.linkedin.com/company/fist-d-o-o/">
+            <Image
+                src="/linkedin.png"
+                alt="LinkedIn"
+                width={28}
+                height={28}
+            />
+            
+            LinkedIn
+        </a>
+        <a href="https://www.youtube.com/@Fist_doo">
+            <Image
+                src="/youtube.png"
+                alt="YouTube"
+                width={28}
+                height={28}
+            />
+            
+            YouTube
+        </a>
       </div>
     </footer>
   );

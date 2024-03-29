@@ -40,7 +40,7 @@ const Footer = () => {
       <div>
         <h3>Spremljajte Nas</h3>
 
-        <a href="https://www.linkedin.com/company/fist-d-o-o/">
+        <a href="https://www.linkedin.com/company/fist-d-o-o/" className="flex items-center gap-2">
             <Image
                 src="/linkedin.png"
                 alt="LinkedIn"
@@ -50,7 +50,7 @@ const Footer = () => {
             
             LinkedIn
         </a>
-        <a href="https://www.youtube.com/@Fist_doo">
+        <a href="https://www.youtube.com/@Fist_doo" className="flex items-center gap-2">
             <Image
                 src="/youtube.png"
                 alt="YouTube"

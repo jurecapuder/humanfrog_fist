@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
+import SatisfiedCustomers from "./sections/satisfiedCustomers";
 import Footer from "./sections/footer";
 
 export default function Home() {
@@ -132,9 +133,7 @@ export default function Home() {
         {/* Knowledge base (accordion) */}
       </section>
       
-      <section>
-        {/* Satisfied customers (slider with logos) */}
-      </section>
+      <SatisfiedCustomers />
       
       <Footer />
     </div>

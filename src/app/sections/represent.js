@@ -1,36 +1,22 @@
-"use client";
-
-import React, { useState } from "react";
+import React from "react";
 
 const images = ["/borealis.png", "/synthos.png", "/chemtrend.png", "/viba.png"]; // Add your images here
 
 const Represent = () => {
-  const [current, setCurrent] = useState(0);
-
-  function goLeft() {
-    setCurrent(current === 0 ? images.length - 1 : current - 1);
-  }
-
-  function goRight() {
-    setCurrent(current === images.length - 1 ? 0 : current + 1);
-  }
-
   return (
     <div className="text-center">
-      <h2>NAŠE ZADOVOLJNE STRANKE</h2>
+      <h2>ZASTOPAMO</h2>
       <div className="border-t border-fist-oranzna h-px w-32 mx-auto mt-5" />
 
-      <div className="slider">
+      <div className="flex justify-around mt-10">
         {images.map((img, idx) => (
-          <div className={idx === current ? "slide active" : "slide"} key={idx}>
-            {idx === current && (<img src={img} alt="Customer" />)}
+          <div className="slide" key={idx}>
+            <img src={img} alt="Customer" />
           </div>
         ))}
-        <button onClick={goLeft}>Go Left</button>
-        <button onClick={goRight}>Go Right</button>
       </div>
     </div>
   );
-}
+};
 
 export default Represent;

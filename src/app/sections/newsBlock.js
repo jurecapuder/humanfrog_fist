@@ -10,7 +10,9 @@ const NewsBlock = () => {
   return (
     <div>
       <div className="text-center">
-        <h2>Novice</h2>
+        <h2>
+          Svet 360&#176;- Novice, nasveti in spoznanja na enem mestu
+        </h2>
         <div className="border-t border-fist-oranzna h-px w-32 mx-auto mt-5" />
       </div>
 

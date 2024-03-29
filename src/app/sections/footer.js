@@ -8,19 +8,38 @@ const Footer = () => {
       <Image src="/fist.png" alt="Company Logo" width={167} height={79} />
       </div>
       <div>
-        <h3>Company Name</h3>
-        <p>Address</p>
-        <p>Phone</p>
+        <h3>Fist d.o.o.</h3>
+
+        <p>
+            Brodišče 4, 1236 Trzin <br />
+            Slovenija
+        </p>
+
+        <p>
+            T +386 1 562 11 53 <br />
+            E info@fist.si
+        </p>
       </div>
       <div>
         <h3>Prodajni Program</h3>
         <ul>
-          <li><i className="fas fa-arrow-right"></i> Subsection 1</li>
-          {/* Repeat the above line for each subsection */}
+          <li><i className="fas fa-arrow-right"></i> Polietileni </li>
+          
+          <li><i className="fas fa-arrow-right"></i> Folijski materiali </li>
+
+          <li><i className="fas fa-arrow-right"></i> Stireli </li>
+
+          <li><i className="fas fa-arrow-right"></i> Barvila in dodatki </li>
+
+          <li><i className="fas fa-arrow-right"></i> Polipropileni </li>
+
+          <li><i className="fas fa-arrow-right"></i> Tehnični granulati </li>
         </ul>
       </div>
+
       <div>
         <h3>Spremljajte Nas</h3>
+
         <a href="https://www.linkedin.com/company/fist-d-o-o/">
             <Image
                 src="/linkedin.png"
@@ -38,7 +57,7 @@ const Footer = () => {
                 width={28}
                 height={28}
             />
-            
+
             YouTube
         </a>
       </div>

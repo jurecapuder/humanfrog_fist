@@ -8,6 +8,7 @@ import KnowledgeBase from "./sections/knowledgeBase";
 import SatisfiedCustomers from "./sections/satisfiedCustomers";
 import Footer from "./sections/footer";
 import NewsBlock from "./sections/newsBlock";
+import Represent from "./sections/represent";
 
 export default function Home() {
   return (
@@ -26,9 +27,7 @@ export default function Home() {
         {/* Banner (image on the left, text on the right) */}
       </section>
 
-      <section>
-        {/* Slider with logos */}
-      </section>
+      <Represent />
 
       <NewsBlock />
 

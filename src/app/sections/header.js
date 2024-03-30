@@ -32,7 +32,7 @@ function Header() {
         <select className="ml-2">
           {/* Add more language options here */}
         </select>
-      </div>
+        </div>
     </header>
     )
 }

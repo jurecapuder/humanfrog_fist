@@ -24,6 +24,8 @@ function Header() {
         </nav>
 
         <button className="bg-purple-500 text-white rounded-full px-4 py-2">Povpraševanje</button>
+
+        <div className="border-l border-gray-300 h-10 mx-4" />  
         
         <div className="relative inline-flex">
           <Image className="inline-block" src="/slovenian-flag.png" alt="Slovenia Flag" width={32} height={18} />

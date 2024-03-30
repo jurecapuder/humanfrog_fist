@@ -2,10 +2,13 @@ import React from "react";
 
 const Process = () => {
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
+    <div className="relative flex flex-col items-center justify-center h-screen">
       <div className="absolute top-0 left-0 m-10">
         <h2 className="text-2xl font-bold mb-4">NAŠ PROCES</h2>
         <div className="border-t border-fist-oranzna h-px w-32" />
+      </div>
+      <div className="absolute bottom-0 right-0 m-10">
+        <p>Some text</p>
       </div>
 
       <svg width="973" height="563" viewBox="0 0 973 563" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -265,10 +268,6 @@ const Process = () => {
           </linearGradient>
         </defs>
       </svg>
-      
-      <div className="absolute bottom-0 right-0 m-10">
-        <p>Some text goes here</p>
-      </div>
     </div>
   );
 };

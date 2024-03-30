@@ -20,7 +20,7 @@ const newsItems = [
 
 const NewsBlock = () => {
   return (
-    <div>
+    <div style={{ margin: "0 10%" }}>
       <div className="text-center">
         <h2>
           Svet 360&#176;- Novice, nasveti in spoznanja na enem mestu

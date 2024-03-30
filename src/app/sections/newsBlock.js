@@ -28,19 +28,22 @@ const NewsBlock = () => {
         <div className="border-t border-fist-oranzna h-px w-32 mx-auto mt-5" />
       </div>
 
-    <div className="flex justify-between mx-10 mt-10">
-      {newsItems.map((item, index) => (
-        <div key={index} className="flex-1 mx-2 flex-shrink">
-          <h3>{item.date}</h3>
-          <h2>{item.title}</h2>
-          <p>{item.content}</p>
-        </div>
-      ))}
-
-    </div>
+      <div className="flex justify-between mt-10">
+        {newsItems.map((item, index) => (
+          <div 
+            key={index} 
+            className={`flex-1 flex-shrink ${index === 1 ? 'border-r border-l border-gray-300' : ''}`}
+            style={{ padding: '0 26.5px' }}
+          >
+            <h3>{item.date}</h3>
+            <h2 className="text-[#434A8D]">{item.title}</h2>
+            <p>{item.content}</p>
+          </div>
+        ))}
+      </div>
 
     <div className="text-center mt-10">
-      <button className="bg-fist-oranzna text-white py-2 px-4 rounded">
+      <button className="bg-fist-oranzna text-white py-2 px-4 rounded-3xl">
         Ves Svet&#176;
       </button>
     </div>

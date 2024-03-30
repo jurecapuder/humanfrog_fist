@@ -3,8 +3,10 @@ import React from "react";
 const About = () => {
   return (
     <div className="flex justify-between">
-      <img src="/roke.png" alt="Roke" className="w-1/2" />
-      <div className="w-1/2">
+      <div style={{ width: '40%', marginLeft: '10%' }}>
+        <img src="/roke.png" alt="Roke" className="w-full h-auto object-contain" style={{ backgroundColor: 'transparent' }} />
+      </div>
+      <div style={{ width: '40%', marginRight: '10%' }}>
         <h2 className="text-2xl mb-4">
           <strong>Fist.</strong> Neomejene možnosti s plastičnimi granulati.
         </h2>

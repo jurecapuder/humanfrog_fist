@@ -28,22 +28,22 @@ const NewsBlock = () => {
         <div className="border-t border-fist-oranzna h-px w-32 mx-auto mt-5" />
       </div>
 
-      <div className="flex justify-evenly mt-10">
-        {newsItems.map((item, index) => (
-          <div key={index} className="news-item">
-            <p>{item.date}</p>
-            <h3 className="text-logo-blue">{item.title}</h3>
-            <p>{item.content.substring(0, 50)}...</p>
-            <a href="#" className="text-fist-oranzna">Več</a>
-          </div>
-        ))}
-      </div>
+    <div className="flex justify-between mx-10 mt-10">
+      {newsItems.map((item, index) => (
+        <div key={index} className="flex-1 mx-2 flex-shrink">
+          <h3>{item.date}</h3>
+          <h2>{item.title}</h2>
+          <p>{item.content}</p>
+        </div>
+      ))}
 
-      <div className="text-center mt-10">
-        <button className="bg-fist-oranzna text-white py-2 px-4 rounded">
-          Ves Svet&#176;
-        </button>
-      </div>
+    </div>
+
+    <div className="text-center mt-10">
+      <button className="bg-fist-oranzna text-white py-2 px-4 rounded">
+        Ves Svet&#176;
+      </button>
+    </div>
     </div>
   );
 };

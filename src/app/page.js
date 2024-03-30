@@ -14,7 +14,7 @@ import Footer from "./sections/footer";
 
 export default function Home() {
   return (
-    <div className="bg-white text-logo-blue">
+    <div className="bg-[#EBEDEE] text-logo-blue">
       <Header />
 
       <Banner />

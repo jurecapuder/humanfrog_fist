@@ -7,8 +7,10 @@ const Process = () => {
         <h2 className="text-2xl font-bold mb-4">NAŠ PROCES</h2>
         <div className="border-t border-fist-oranzna h-px w-32" />
       </div>
-      <div className="absolute bottom-0 right-0 m-10">
-        <p>Some text</p>
+      <div className="absolute bottom-0 right-0 m-10 flex flex-col justify-end items-end w-1/2 pr-10">
+        <p className="text-left pr-10">
+          Ukvarjamo se z distribucijo plastičnih granulatov sit amet consectetur. Aliquet mauris amet morbi tincidunt orci vitae commodo. Eget tempor cras curabitur nec pellentesque scelerisque et in. Id turpis dictum egestas id enim at aliquam. Rhoncus. Aliquet mauris amet morbi tincidunt orci vitae commodo. Eget tempor cras curabitur nec pellentesque scelerisque et in. Id turpis dictum egestas id enim at aliquam. Rhoncus.
+        </p>
       </div>
 
       <svg width="973" height="563" viewBox="0 0 973 563" fill="none" xmlns="http://www.w3.org/2000/svg">

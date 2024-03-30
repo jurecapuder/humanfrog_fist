@@ -1,10 +1,22 @@
 import React from "react";
 
 const newsItems = [
-  { date: "10.3.2023", title: "Title 1", content: "Content 1" },
-  { date: "10.3.2023", title: "Title 2", content: "Content 2" },
-  { date: "10.3.2023", title: "Title 3", content: "Content 3" },
-]; // Replace with your news data
+  {
+    date: "10. 3. 2023 · NOVICA",
+    title: "Strokovnost in trajnost združena v pridobitvi ISO 14001:2015",
+    content: "Z veseljem vas obveščamo da smo v podjetju Fist d.o.o uspešno pridobili okolijski standard ISO 14001:2015..."
+  },
+  {
+    date: "10. 3. 2023 · NOVICA",
+    title: "Naš partner SABIC s ponosom predstavlja novo trajnostno zmes LNP™ ELCRIN™ WF0051iQ.",
+    content: "Ta zmes ne zagotavlja le visoke zmogljivosti za električne aplikacije, temveč prispeva tudi k stalnim okoljskim pobudam."
+  },
+  {
+    date: "10. 3. 2023 · NOVICA",
+    title: "Strokovnost in trajnost združena v pridobitvi ISO 14001:2015",
+    content: "Z veseljem vas obveščamo da smo v podjetju Fist d.o.o uspešno pridobili okolijski standard ISO 14001:2015..."
+  },
+];
 
 const NewsBlock = () => {
   return (

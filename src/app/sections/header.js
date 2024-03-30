@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Header() {
     return (
-        <header className="flex items-center justify-between" style={{ padding: '0 10vw' }}>
+      <header className="flex items-center justify-between" style={{ margin: '0 10%' }}>
         <Image src="/fist.png" alt="Company Logo" width={167} height={79} />
         
         <nav>
@@ -33,7 +33,7 @@ function Header() {
             {/* Add more language options here */}
           </select>
         </div>
-      </header>
+    </header>
     )
 }
 

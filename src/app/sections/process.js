@@ -2,7 +2,12 @@ import React from "react";
 
 const Process = () => {
   return (
-    <div>
+    <div className="flex flex-col items-center justify-center h-screen">
+      <div className="absolute top-0 left-0 m-10">
+        <h2 className="text-2xl font-bold mb-4">NAŠ PROCES</h2>
+        <div className="border-t border-fist-oranzna h-px w-32" />
+      </div>
+
       <svg width="973" height="563" viewBox="0 0 973 563" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M175.307 450.913L144.687 468.591L126.895 478.864L144.337 488.934L192.75 460.983L192.304 451.17L175.307 450.913Z" fill="url(#paint0_linear_1_4108)"/>
         <path d="M202.711 383.948L202.711 409.062L202.711 423.655H226.396L226.396 383.948L214.553 377.161L202.711 383.948Z" fill="url(#paint1_linear_1_4108)"/>
@@ -260,8 +265,12 @@ const Process = () => {
           </linearGradient>
         </defs>
       </svg>
+      
+      <div className="absolute bottom-0 right-0 m-10">
+        <p>Some text goes here</p>
+      </div>
     </div>
-  )
-}
+  );
+};
 
 export default Process;

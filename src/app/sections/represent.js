@@ -2,30 +2,30 @@
 
 import React, { useState } from "react";
 
-const images = ["/borealis.png", "/synthos.png", "/chemtrend.png", "/viba.png"]; // Add your images here
+const images = ["/borealis.png", "/synthos.png", "/chemtrend.png", "/viba.png", "/cabot.png"];
 
 const Represent = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handleNext = () => {
-    setCurrentIndex((currentIndex - 1 + images.length) % images.length);
+    setCurrentIndex((currentIndex + 1) % 5);
   };
-
+  
   const handlePrev = () => {
-    setCurrentIndex((currentIndex + 1) % images.length);
+    setCurrentIndex((currentIndex - 1 + 5) % 5);
   };
-
+  
   const getImages = () => {
     let imgArray = [];
     for (let i = 0; i < 4; i++) {
-      imgArray.push(images[(currentIndex + i) % images.length]);
+      imgArray.push(images[(currentIndex - i + images.length) % images.length]);
     }
     return imgArray;
   };
 
   const getDots = () => {
     let dotsArray = [];
-    for (let i = 0; i < images.length; i++) {
+    for (let i = 0; i < 5; i++) {
       dotsArray.push(i);
     }
     return dotsArray;

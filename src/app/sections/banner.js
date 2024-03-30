@@ -8,10 +8,11 @@ function Banner() {
           <input className="bg-transparent outline-none flex-grow w-80" type="text" placeholder="Iskanje po prodajnem programu" />
           <i className="fas fa-search"></i>
         </div>
+        <div className="absolute h-20 w-full bg-blue-900 opacity-90" style={{ left: '10%' }}></div>
       </div>
 
-      <div className="flex" style={{ padding: '0 10%' }}>
-        <div className="w-[456px] bg-blue-800 bg-opacity-90 pl-4 text-white flex flex-col items-center pt-20 pb-10">
+      <div className="flex justify-center" style={{ padding: '0 10%' }}>
+        <div className="bg-blue-800 bg-opacity-90 pl-4 text-white flex flex-col items-center pt-20 pb-10" style={{ maxWidth: 'calc(50% - 20px)' }}>
           <h2 className="text-4xl font-bold">Naši plastični granulati</h2>
           <h2 className="text-4xl font-bold">Vaši trajnostno<br />naravni izdelki</h2>
           <div className="w-1/2 h-1 bg-orange-500 my-4"></div>

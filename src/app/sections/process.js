@@ -2,8 +2,8 @@ import React from "react";
 
 const Process = () => {
   return (
-    <div className="relative flex flex-col items-center justify-center h-screen">
-      <div className="absolute top-0 left-0 m-10">
+    <div className="relative flex flex-col items-center justify-center h-screen bg-logo-blue">
+      <div className="absolute top-0 left-0 m-10 text-white">
         <h2 className="text-2xl font-bold mb-4">NAŠ PROCES</h2>
         <div className="border-t border-fist-oranzna h-px w-32" />
       </div>

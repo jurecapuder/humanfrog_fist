@@ -23,9 +23,17 @@ const Represent = () => {
     return imgArray;
   };
 
+  const getDots = () => {
+    let dotsArray = [];
+    for (let i = 0; i < images.length; i++) {
+      dotsArray.push(i);
+    }
+    return dotsArray;
+  };
+
   return (
-    <div className="text-center">
-      <h2>ZASTOPAMO</h2>
+    <div className="text-center bg-white">
+      <h2 className="pt-4">ZASTOPAMO</h2>
       <div className="border-t border-fist-oranzna h-px w-32 mx-auto mt-5" />
 
       <div style={{ margin: "0 10%", height: "168px" }} className="relative flex items-center justify-around mt-10">
@@ -47,6 +55,21 @@ const Represent = () => {
           </svg>
         </button>
       </div>
+
+      <div className="flex justify-center mt-4">
+          {getDots().map((dot, idx) => (
+            <div
+              key={idx}
+              style={{
+                width: '8px',
+                height: '8px',
+                backgroundColor: currentIndex % images.length === idx ? '#151A45' : '#D2D2D2',
+                borderRadius: '50%',
+                margin: '0 5px'
+              }}
+            ></div>
+          ))}
+        </div>
     </div>
   );
 };

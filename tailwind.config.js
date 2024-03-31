@@ -15,7 +15,10 @@ module.exports = {
       colors: {
         "logo-blue": "#151A45",
         "fist-oranzna": "#FEA353"
-      }
+      },
+      fontFamily: {
+        "roboto": ["Roboto Condensed", "sans-serif"],
+      },
     },
   },
   plugins: [],

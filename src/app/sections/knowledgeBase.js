@@ -17,7 +17,7 @@ const KnowledgeBase = () => {
   return (
     <div className="flex bg-[#151A45] text-white p-10 mt-10">
       <div className="w-1/2" style={{ paddingLeft: "10%"}}>
-      <h4 id="baza-znanja" className="font-roboto text-center text-base font-bold leading-7 tracking-wider text-[#151A45]">BAZA ZNANJA</h4>
+      <h4 id="baza-znanja" className="font-roboto text-left text-base font-bold leading-7 tracking-wider">BAZA ZNANJA</h4>
         <div className="border-t border-fist-oranzna h-px w-32 mt-5" />
       </div>
       <div className="w-1/2" style={{ paddingRight: "10%"}}>

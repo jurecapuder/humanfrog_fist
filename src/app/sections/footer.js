@@ -4,7 +4,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-logo-blue text-white grid grid-cols-4 gap-4 p-8" style={{ padding: "0 10%"}}>
+      <footer className="bg-logo-blue text-white grid grid-cols-4 gap-4" style={{ padding: "0 10%", paddingTop: "30px"}}>
         <div className="flex flex-col justify-end">
         <Image src="/fist.png" alt="Company Logo" width={167} height={79} />
         </div>
@@ -99,15 +99,15 @@ const Footer = () => {
 
       </footer>
 
-      <div className="bg-logo-blue text-right text-[#BFC4F3]" style={{ padding: "0 10%", paddingBottom: "128px"}}>
-        <hr className="mb-4" />
+      <div className="bg-logo-blue text-[#BFC4F3]" style={{ padding: "0 10%", paddingBottom: "128px"}}>
+        <hr className="mb-4 border-t border-black h-px" />
 
-        <p>
-            © 2023 Fist d.o.o.
-            Pravila in pogoji uporabe
-            Piškotki in zasebnost
-            Oblikovanje in razvoj spletnih strani: Humanfrog
-        </p>
+        <div className="flex justify-end space-x-8">
+          <p className="text-[#5c5e5f]"> © 2023 Fist d.o.o. </p>
+          <p> Pravila in pogoji uporabe </p>
+          <p> Piškotki in zasebnost </p>
+          <p> Oblikovanje in razvoj spletnih strani: Humanfrog </p>
+        </div>
       </div>
     </>
   );

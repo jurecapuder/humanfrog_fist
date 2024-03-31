@@ -6,7 +6,7 @@ const SalesProgram = () => {
         <div className="flex flex-col items-center">
           <div className="h-8 bg-gray-300" />
 
-          <h2 className="text-4xl font-bold mb-8">NAŠ PRODAJNI PROGRAM</h2>
+          <h2 id="prodajni-program" className="text-4xl font-bold mb-8">NAŠ PRODAJNI PROGRAM</h2>
 
           <div className="flex justify-between w-4/5">
             <div className="relative left-0 top-1/2 transform -translate-y-1/2">

@@ -104,8 +104,11 @@ const Footer = () => {
 
         <div className="flex justify-end space-x-8">
           <p className="text-[#5c5e5f]"> © 2023 Fist d.o.o. </p>
+          <p> · </p>
           <p> Pravila in pogoji uporabe </p>
+          <p> · </p>
           <p> Piškotki in zasebnost </p>
+          <p> · </p>
           <p> Oblikovanje in razvoj spletnih strani: Humanfrog </p>
         </div>
       </div>

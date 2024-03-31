@@ -39,8 +39,8 @@ const SalesProgram = () => {
 
   return (
     <div className="text-center bg-white pb-10 relative" style={{ margin: "30px 0" }}>
-      <h2 className="pt-4 uppercase">Naš Prodajni program</h2>
-      <div className="border-t border-fist-oranzna h-px w-32 mx-auto mt-5" />
+      <h2 className="pt-4 uppercase text-[#151A45]">Naš Prodajni program</h2>
+      <div className="border-t border-fist-oranzna h-px w-32 mx-auto my-5" />
 
       <div style={{ margin: "0 10%", height: "168px" }} className="relative flex items-center justify-around mt-10">
         <button onClick={handlePrev} className="absolute left-0">
@@ -54,9 +54,9 @@ const SalesProgram = () => {
             let borderClass = '';
             let marginClass = '';
             if (index === 0) {
-              marginClass = 'ml-5'; // Add left margin to the first image
+              marginClass = 'ml-5';
             } else if (index === array.length - 1) {
-              marginClass = 'ml-5'; // Add right margin to the last image
+              marginClass = 'ml-5'; 
             }
 
             if (index === 1) {

@@ -6,7 +6,7 @@ const Footer = () => {
     <>
       <footer className="bg-logo-blue text-white grid grid-cols-4 gap-x-12" style={{ padding: "0 10%", paddingTop: "30px" }}>
         <div className="flex flex-col justify-end">
-        <img src="/fist.png" alt="Company Logo" className="w-full h-auto object-contain filter grayscale" />
+          <img src="/fist.png" alt="Company Logo" className="w-full h-auto object-contain filter grayscale" />
         </div>
         <div>
           <h3>Fist d.o.o.</h3>

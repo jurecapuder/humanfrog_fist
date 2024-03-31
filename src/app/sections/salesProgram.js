@@ -2,7 +2,13 @@
 
 import React, { useState } from "react";
 
-const images = ["/borealis.png", "/synthos.png", "/chemtrend.png", "/viba.png", "/cabot.png"];
+const images = [
+  { src: "/borealis.png", title: "POLIOLEFINI", description: "Polieten je najpogostejša plastika. Njegova osnovna uporaba je v embalaži." },
+  { src: "/synthos.png", title: "TEHNIČNI MATERIALI", description: "Polieten je najpogostejša plastika. Njegova osnovna uporaba je v embalaži." },
+  { src: "/chemtrend.png", title: "TRAJNOSTNI MATERIALI", description: "Polieten je najpogostejša plastika. Njegova osnovna uporaba je v embalaži." },
+  { src: "/viba.png", title: "BARVILA IN DODATKI", description: "Polieten je najpogostejša plastika. Njegova osnovna uporaba je v embalaži." },
+  { src: "/cabot.png", title: "Cabot", description: "Polieten je najpogostejša plastika. Njegova osnovna uporaba je v embalaži." },
+];
 
 const SalesProgram = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -43,11 +49,15 @@ const SalesProgram = () => {
           </svg>
         </button>
 
-        {getImages().map((img, idx) => (
-          <div className="slide" key={idx}>
-            <img src={img} alt="Customer" />
-          </div>
-        ))}
+        <div className="relative flex items-center justify-between mt-10" style={{ width: 'calc(100% - 56px)' }}>
+          {getImages().map((image, index) => (
+            <div key={index}>
+              <img src={image.src} alt={image.title} />
+              <h2>{image.title}</h2>
+              <p>{image.description}</p>
+            </div>
+          ))}
+        </div>
 
         <button onClick={handleNext} className="absolute right-0">
           <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">

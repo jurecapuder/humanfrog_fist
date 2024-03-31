@@ -16,9 +16,9 @@ const KnowledgeBase = () => {
 
   return (
     <div className="flex bg-[#151A45] text-white p-10 mt-10">
-      <div className="w-1/2">
-        <h2 className="text-center">Baza znanja</h2>
-        <div className="border-t border-fist-oranzna h-px w-32 mx-auto mt-5" />
+      <div className="w-1/2" style={{ paddingLeft: "10%"}}>
+        <h2>BAZA ZNANJA</h2>
+        <div className="border-t border-fist-oranzna h-px w-32 mt-5" />
       </div>
       <div className="w-1/2" style={{ paddingRight: "10%"}}>
         {questions.map((item, index) => (

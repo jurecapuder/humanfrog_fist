@@ -3,13 +3,13 @@
 import React, { useState } from "react";
 
 const questions = [
-  { question: "Question 1", answer: "Answer 1" },
-  { question: "Question 2", answer: "Answer 2" },
-  { question: "Question 3", answer: "Answer 3" },
-  { question: "Question 4", answer: "Answer 4" },
-  { question: "Question 5", answer: "Answer 5" },
-  { question: "Question 6", answer: "Answer 6" },
-]; // Replace with your questions and answers
+  { question: "Kakšne vrste plastičnih granulatov ponujate?", answer: "Answer 1" },
+  { question: "Zakaj uporabiti čistilni granulat?", answer: "Answer 2" },
+  { question: "Kako čistilni granulat deluje na različnih vrstah površin?", answer: "Answer 3" },
+  { question: "Kakšne vrste plastičnih granulatov ponujate?", answer: "Answer 4" },
+  { question: "Zakaj uporabiti čistilni granulat?", answer: "Answer 5" },
+  { question: "Kako čistilni granulat deluje na različnih vrstah površin?", answer: "Answer 6" },
+];
 
 const KnowledgeBase = () => {
   const [openIndex, setOpenIndex] = useState(null);

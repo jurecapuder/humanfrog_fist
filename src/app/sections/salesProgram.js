@@ -38,7 +38,7 @@ const SalesProgram = () => {
   };
 
   return (
-    <div className="text-center bg-white pb-10 relative" style={{ margin: "30px 0" }}>
+    <div className="text-center bg-white pb-10 relative" style={{ margin: "40px 0" }}>
       <h2 className="pt-4 uppercase text-[#151A45]">Naš Prodajni program</h2>
       <div className="border-t border-fist-oranzna h-px w-32 mx-auto my-5" />
 
@@ -99,7 +99,7 @@ const SalesProgram = () => {
           ))}
         </div>
 
-        <div className="flex justify-center mt-5 absolute bottom-5 left-1/2 transform -translate-x-1/2">
+        <div className="flex justify-center mt-5 absolute bottom-5 left-1/2 transform -translate-x-1/2" style={{ bottom: "-20px" }}>
           <button className="bg-[#434A8D] text-white font-bold py-2 px-4 rounded-3xl">
             Celotni program
           </button>

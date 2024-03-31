@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="bg-logo-blue text-white grid grid-cols-4 gap-4 p-8">
+    <footer className="bg-logo-blue text-white grid grid-cols-4 gap-4 p-8" style={{ padding: "0 10%"}}>
       <div className="flex flex-col justify-end">
       <Image src="/fist.png" alt="Company Logo" width={167} height={79} />
       </div>
@@ -68,19 +68,16 @@ const Footer = () => {
 
       <div className="border-t border-black h-px" />
 
-      <div className="col-span-4 grid grid-cols-4">
-
-        <div className="">
-            <p>
-                © 2023 Fist d.o.o.
-                Pravila in pogoji uporabe
-                Piškotki in zasebnost
-                Oblikovanje in razvoj spletnih strani: Humanfro
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                
-            </svg>
-            </p>
-        </div>
+      <div className="w-full">
+        <p>
+            © 2023 Fist d.o.o.
+            Pravila in pogoji uporabe
+            Piškotki in zasebnost
+            Oblikovanje in razvoj spletnih strani: Humanfro
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            
+        </svg>
+        </p>
       </div>
     </footer>
   );

@@ -4,7 +4,7 @@ function Banner() {
   return (
     <section className="relative bg-cover bg-center" style={{ backgroundImage: `url(/background-image.jpg)` }}>
       <div className="relative w-full h-20">
-        <div className="bg-blue-800 opacity-90 flex items-center justify-end w-full h-20">
+        <div className="flex items-center justify-end w-full h-20 bg-[#23295B] bg-opacity-90">
           <div className="flex items-center border-2 border-[#0E1130] p-2 rounded-md bg-[#0E1130] text-[#8F8F8F]" style={{ marginRight: "10%" }}>
             <input className="bg-transparent outline-none flex-grow w-80" type="text" placeholder="Iskanje po prodajnem programu" />
             <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -15,7 +15,7 @@ function Banner() {
       </div>
 
       <div className="flex justify-center" style={{ padding: '0 10%' }}>
-        <div className="bg-blue-800 bg-opacity-90 pl-4 text-white flex flex-col items-start pt-4 pb-10 px-4" style={{ maxWidth: 'calc(50% - 20px)' }}>
+        <div className="bg-[#23295B] bg-opacity-90 pl-4 text-white flex flex-col items-start pt-4 pb-10 px-4" style={{ maxWidth: 'calc(50% - 20px)' }}>
           <h2 className="text-4xl">Naši plastični granulati</h2>
           <h2 className="text-4xl font-bold">Vaši trajnostno<br />naravni izdelki</h2>
           <div className="w-1/2 h-1 bg-orange-500 my-4"></div>

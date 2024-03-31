@@ -33,7 +33,7 @@ const Represent = () => {
 
   return (
     <div className="text-center bg-white pb-10 relative">
-      <h2 className="pt-4">ZASTOPAMO</h2>
+      <h2 className="pt-4" id="zastopamo">ZASTOPAMO</h2>
       <div className="border-t border-fist-oranzna h-px w-32 mx-auto mt-5" />
 
       <div style={{ margin: "0 10%", height: "168px" }} className="relative flex items-center justify-around mt-10">

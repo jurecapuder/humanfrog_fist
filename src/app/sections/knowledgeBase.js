@@ -34,7 +34,7 @@ const KnowledgeBase = () => {
               </span>
             </div>
             {openIndex === index && (
-              <div className="text-white" style={{ lineHeight: "1.5" }}>{item.answer}</div>
+              <div className="text-white" style={{ lineHeight: "1.5", paddingBottom: "20px" }}>{item.answer}</div>
             )}
             <hr className="separator border-t border-black" />
           </div>

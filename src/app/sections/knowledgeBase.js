@@ -39,6 +39,10 @@ const KnowledgeBase = () => {
             <hr className="separator border-t border-black" />
           </div>
         ))}
+
+        <button>
+          Več znanja
+        </button>
       </div>
     </div>
   );

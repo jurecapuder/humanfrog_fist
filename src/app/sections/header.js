@@ -4,7 +4,8 @@ import Image from "next/image";
 function Header() {
   return (
     <header className="flex bg-white items-center justify-between" style={{ width: '100%', padding: '0 10%' }}>
-      <Image src="/fist.png" alt="Company Logo" width={167} height={79} />
+
+      <Image id="home" src="/fist.png" alt="Company Logo" width={167} height={79} />
       
       <nav>
         <ul className="flex space-x-10">

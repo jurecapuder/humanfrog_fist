@@ -50,13 +50,31 @@ const SalesProgram = () => {
         </button>
 
         <div className="relative flex items-center justify-between mt-10" style={{ width: 'calc(100% - 56px)' }}>
-          {getImages().map((image, index) => (
-            <div key={index}>
-              <img src={image.src} alt={image.title} />
-              <h2>{image.title}</h2>
-              <p>{image.description}</p>
-            </div>
-          ))}
+          {getImages().map((image, index, array) => {
+            let borderClass = '';
+            let marginClass = '';
+            if (index === 0) {
+              marginClass = 'ml-5'; // Add left margin to the first image
+            } else if (index === array.length - 1) {
+              marginClass = 'ml-5'; // Add right margin to the last image
+            }
+
+            if (index === 1) {
+              borderClass = 'border-l border-gray-300 px-3.5';
+            } else if (index === 2) {
+              borderClass = 'border-r border-l border-gray-300 px-3.5';
+            }
+
+            return (
+              <div key={index} className={`flex flex-col ${borderClass} ${marginClass}`}>
+                <img src={image.src} alt={image.title} className="mx-auto" />
+                <div className="text-left w-full">
+                  <h2 className="text-[#434A8D] font-bold">{image.title}</h2>
+                  <p className="text-[#3C3C3C]">{image.description}</p>
+                </div>
+              </div>
+            );
+          })}
         </div>
 
         <button onClick={handleNext} className="absolute right-0">
@@ -66,7 +84,7 @@ const SalesProgram = () => {
         </button>
       </div>
 
-      <div className="flex justify-center mt-4 pb-10">
+      <div className="flex justify-center mt-12 pb-10">
           {getDots().map((dot, idx) => (
             <div
               key={idx}

@@ -8,7 +8,7 @@ const About = () => {
       </div>
       <div style={{ width: '40%', marginRight: '10%' }} className="ml-5 flex items-center text-left">
         <div>
-          <h2 className="text-2xl mb-4">
+          <h2 className="text-2xl mb-4" id="o-nas">
             <strong>Fist.</strong> Neomejene možnosti s plastičnimi granulati.
           </h2>
 

@@ -22,7 +22,7 @@ const Footer = () => {
           </p>
         </div>
         <div>
-          <h3>Prodajni Program</h3>
+          <h3>PRODAJNI PROGRAM</h3>
 
           <div className="border-t border-black h-px" />
 
@@ -72,7 +72,7 @@ const Footer = () => {
         </div>
 
         <div>
-          <h3>Spremljajte Nas</h3>
+          <h3>SPREMLJEJTE NAS</h3>
 
           <div className="border-t border-black h-px" />
 

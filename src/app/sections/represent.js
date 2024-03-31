@@ -73,7 +73,7 @@ const Represent = () => {
 
         <div className="flex justify-center mt-5 absolute bottom-5 left-1/2 transform -translate-x-1/2">
           <button className="bg-[#434A8D] text-white font-bold py-2 px-4 rounded-3xl">
-            Vsa zastopništva
+            Vsa zastopstva
           </button>
         </div>
     </div>

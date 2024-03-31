@@ -21,19 +21,10 @@ const newsItems = [
 const NewsBlock = () => {
   return (
     <div className="relative" style={{ margin: "0 10%" }}>
-      <button style={{ 
-        position: 'absolute', 
-        top: '-33px', 
-        left: '50%', 
-        transform: 'translateX(-50%)' 
-      }}>
-        Button
-      </button>
-
       <div className="text-center">
-        <h2>
+        <h4>
           Svet 360&#176;- Novice, nasveti in spoznanja na enem mestu
-        </h2>
+        </h4>
         <div className="border-t border-fist-oranzna h-px w-32 mx-auto mt-5" />
       </div>
 

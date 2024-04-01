@@ -1,10 +1,11 @@
 import React from "react";
+import Image from "next/image";
 
 const About = () => {
   return (
     <div className="flex justify-between">
       <div style={{ width: '40%', marginLeft: '10%' }} className="mr-5">
-        <img src="/roke.png" alt="Roke" className="w-full h-auto object-contain" />
+        <Image src="/roke.png" alt="Roke" className="object-contain" width={700} height={300} />
       </div>
       <div style={{ width: '40%', marginRight: '10%' }} className="ml-5 flex items-center text-left">
         <div>

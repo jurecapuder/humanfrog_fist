@@ -8,7 +8,6 @@ function Header() {
 
   return (
     <header className="top-0 flex bg-white items-center justify-between sticky z-50" style={{ width: '100%', padding: '0 10%' }}>
-
       <img id="home" src="/fist.png" alt="Company Logo" />
       
       <nav>
@@ -34,11 +33,11 @@ function Header() {
         
       <div className="relative inline-flex">
         <Image className="inline-block mr-5" src="/slovenian-flag.png" alt="Slovenia Flag" width={32} height={18} />
+
         <svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M6 8.09766L0.0117188 2.10938L1.81641 0.304688L6 4.48828L10.1836 0.304688L11.9883 2.10938L6 8.09766Z" fill="#434A8D"/>
         </svg>
-
-        </div>
+      </div>
     </header>
     )
 }

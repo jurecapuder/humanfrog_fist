@@ -2,7 +2,10 @@ import React from "react";
 
 function Banner() {
   return (
-    <section className="relative bg-cover bg-center" style={{ backgroundImage: `url(/background-image.jpg)` }}>
+    <section className="relative bg-cover bg-center">
+    <video autoPlay loop muted className="absolute z-0 w-full h-full object-cover">
+      <source src="/video.mp4" type="video/mp4" />
+    </video>
       <div className="relative w-full h-20">
         <div className="flex items-center justify-end w-full h-20 bg-[#23295B] bg-opacity-90">
           <div className="flex items-center border-2 border-[#0E1130] p-2 rounded-md bg-[#0E1130] text-[#8F8F8F]" style={{ marginRight: "10%" }}>
@@ -14,7 +17,7 @@ function Banner() {
         </div>
       </div>
 
-      <div className="flex justify-center" style={{ padding: '0 10%' }}>
+      <div className=" relative flex justify-center z-10" style={{ padding: '0 10%' }}>
         <div className="bg-[#23295B] bg-opacity-90 pl-4 text-white flex flex-col items-start pt-4 pb-10 px-4" style={{ maxWidth: 'calc(50% - 20px)' }}>
           <h2 className="text-4xl">Naši plastični granulati</h2>
           <h2 className="text-4xl font-bold">Vaši trajnostno<br />naravni izdelki</h2>

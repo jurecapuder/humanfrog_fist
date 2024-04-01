@@ -1,11 +1,15 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import Image from "next/image";
 
 function Header() {
-  return (
-    <header className="flex bg-white items-center justify-between" style={{ width: '100%', padding: '0 10%' }}>
+  const [isOpen, setIsOpen] = useState(false);
 
-      <Image id="home" src="/fist.png" alt="Company Logo" width={167} height={79} />
+  return (
+    <header className="top-0 flex bg-white items-center justify-between sticky z-50" style={{ width: '100%', padding: '0 10%' }}>
+
+      <img id="home" src="/fist.png" alt="Company Logo" />
       
       <nav>
         <ul className="flex space-x-10">

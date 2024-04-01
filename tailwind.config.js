@@ -17,7 +17,7 @@ module.exports = {
         "fist-oranzna": "#FEA353"
       },
       fontFamily: {
-        "roboto": ["Roboto Condensed", "sans-serif"],
+        sans: ['var(--font-roboto)'],
       },
     },
   },

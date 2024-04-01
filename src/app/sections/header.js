@@ -7,7 +7,7 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="top-0 flex bg-white items-center justify-between sticky z-50" style={{ width: '100%', padding: '0 10%' }}>
+    <header className="lg:flex hidden top-0 bg-white items-center justify-between sticky z-50" style={{ width: '100%', padding: '0 10%' }}>
       <img id="home" src="/fist.png" alt="Company Logo" />
       
       <nav>

@@ -17,8 +17,8 @@ function Banner() {
         </div>
       </div>
 
-      <div className=" relative flex justify-center z-10" style={{ padding: '0 10%' }}>
-        <div className="bg-[#23295B] bg-opacity-90 pl-4 text-white flex flex-col items-start pt-4 pb-10 px-4" style={{ maxWidth: 'calc(50% - 20px)' }}>
+      <div className="relative flex justify-center z-10" style={{ padding: '0 10%' }}>
+        <div className="bg-[#23295B] bg-opacity-90 text-white flex flex-col items-start pt-4 pb-10 px-8" style={{ maxWidth: 'calc(50% - 20px)' }}>
           <h2 className="text-4xl">Naši plastični granulati</h2>
           <h2 className="text-4xl font-bold">Vaši trajnostno<br />naravni izdelki</h2>
           <div className="w-1/2 h-1 bg-orange-500 my-4"></div>
